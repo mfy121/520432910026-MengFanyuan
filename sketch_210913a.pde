@@ -28,6 +28,13 @@ void move() {
   z = 800-x;
   if (x>1200) {
     x = 0;
+c = color(random(255),random(255),random(255));
+d = color(random(255),random(255),random(255)); 
+e = color(random(255),random(255),random(255)); 
+f = color(random(255),random(255),random(255));
+g = color(random(255),random(255),random(255));
+i = color(random(255),random(255),random(255));
+j = color(random(255),random(255),random(255));
   }
 
 }
@@ -81,6 +88,22 @@ fill(i);
   rect(x-400,y+600,50,20);
 fill(j);
   rect(x-450,y+700,50,20);
+  fill(c);
+  rect(x-200,y,50,20);
+fill(d);
+  rect(x-250,y+100,50,20);
+fill(e);
+  rect(x-300,y+200,50,20);
+fill(f);
+  rect(x-350,y+300,50,20);
+fill(g);
+  rect(x-400,y+400,50,20);
+fill(h);
+  rect(x-450,y+500,50,20);
+fill(i);
+  rect(x-500,y+600,50,20);
+fill(j);
+  rect(x-550,y+700,50,20);
   
 fill(c);
   rect(z,y,50,20);
@@ -130,6 +153,22 @@ fill(i);
   rect(z-400,y+600,50,20);
 fill(j);
   rect(z-450,y+700,50,20);
+fill(c);
+  rect(z-200,y,50,20);
+fill(d);
+  rect(z-250,y+100,50,20);
+fill(e);
+  rect(z-300,y+200,50,20);
+fill(f);
+  rect(z-350,y+300,50,20);
+fill(g);
+  rect(z-400,y+400,50,20);
+fill(h);
+  rect(z-450,y+500,50,20);
+fill(i);
+  rect(z-500,y+600,50,20);
+fill(j);
+  rect(z-550,y+700,50,20);
   fill(255,255,255);
   ellipse(mouseX,mouseY,20,20);
   }
